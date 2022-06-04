@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 48px;
+  max-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.92);
+}
+.navbar .links {
+  display: block;
+  justify-content: right;
+}
+
+#logo {
+  width: 17px;
+  height: 17px;
+}
+#shopping-icon {
+  margin-top: -14px;
+}
+
+.links {
+  padding-top: 12px;
+}
+
+.links ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+}
+
+.links ul li {
+  color: rgba(236, 228, 228, 0.65);
+  padding: 20px;
+}
+
+.banner {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  padding-top: 45px;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+}
+
+.banner-contents {
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner a {
+  text-decoration: none;
+  font-size: 14px;
+  padding-top: 25px;
+}
+
+#unicef {
+  width: 122px;
+  height: 32px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.main-section {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 624px;
+  background-image: url(https://www.apple.com/v/home/ao/images/heroes/iphone-13-pro/hero_iphone13pro_avail__iy77cld0zwii_large.jpg);
+  background-position: center;
+}
+
+.main-content {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 380px;
+}
+
+.main-content h1 {
+  font-size: 55px;
+  font-weight: 400px;
+}
+.main-content p {
+  font-size: 25px;
+}
+.main-links {
+  padding-top: 20px;
+}
+
+.text-dec-remove {
+  text-decoration: none;
+  font-size: 20px;
+  color: #06c;
+  padding-left: 25px;
+}
+
+/* section two*/
+
+.section-two {
+  height: 625px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Assets/second\ section.jpg);
+  object-fit: contain;
+  background-position: center;
+}
+
+.section-two p {
+  font-size: 30px;
+}
+
+.section-two-content {
+  margin-bottom: 320px;
+}
+
+.second-quote {
+  padding-bottom: 20px;
+}
+
+/* tv plus section */
+
+.tv-plus {
+  width: 100%;
+  height: 624px;
+  padding-top: 60px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv-plus-components {
+  position: absolute;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.tv-plus-components h1 {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.tv-plus-components p {
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 40px;
+}
+
+.plus-btn {
+  width: 160px;
+  height: 39px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+.play-icon {
+  height: 17px;
+  width: 17px;
+}
+
+/* cards */
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  background-color: white;
+}
+
+.flex-item {
+  width: 650px;
+  height: 550px;
+  margin-top: 80px;
+}
+
+.flex-item-1 {
+  background-image: url(Assets/card\ one.jpg);
+  background-position: center;
+  object-fit: contain;
+}
+.flex-item-2 {
+  background-image: url(Assets/card\ two.jpg);
+  background-position: center;
+  object-fit: contain;
+}
+.flex-item-3 {
+  background-image: url(Assets/card\ three.jpg);
+  background-position: center;
+  object-fit: contain;
+}
+.flex-item-4 {
+  background-image: url(Assets/card\ four.jpg);
+  background-position: center;
+  object-fit: contain;
+}
+.flex-item-5 {
+  background-image: url(Assets/apple\ card.jpg);
+  background-position: center;
+  object-fit: contain;
+}
+.flex-item-6 {
+  background-image: url(Assets/watches.jpg);
+  background-position: center;
+  object-fit: contain;
+}
+
+.card-content {
+  color: white;
+  font-size: 18px;
+  font-weight: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 350px;
+}
+
+.card-content a {
+  color: #2997ff;
+  padding-top: 50px;
+}
+
+.card-content h3 {
+  padding: 20px;
+}
+
+.cardtwo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardtwo h2 {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.cardtwo p {
+  font-size: 21px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+.cardtwo a {
+  font-size: 17px;
+  font-weight: 400;
+  color: #2997ff;
+  margin-top: 20px;
+  letter-spacing: -0.022em;
+  text-decoration: none;
+}
+
+.event-date {
+  font-size: 19px;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #bf4800;
+}
+
+.cardthree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cardthree h3 {
+  font-size: 40px;
+  margin-top: 53px;
+  color: white;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.cardthree a {
+  color: white;
+  text-decoration: none;
+}
+
+.cardfour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 2;
+}
+
+.cardfive {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 2;
+}
+.cardsix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 2;
+}
+.cardsix h3 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+.outer {
+  display: flex;
+  justify-content: space-between;
+  text-justify: auto;
+  font-size: 12px;
+  background-color: #f5f5f7;
+}
+
+.wrapper {
+  padding: 25px 50px 0px 100px;
+}
+
+.footer-description {
+  list-style: none;
+  line-height: 2;
+}
+
+.footer-description li {
+  padding-top: 10px;
+}
+
+.line {
+  height: 0.1px;
+  opacity: 0.5;
+  color: rgb(201, 201, 201);
+}
+.footer-wrapper {
+  padding: 25px 50px 75px 100px;
+  background-color: #f5f5f7;
+  display: flex;
+  gap: 50px;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 400;
+}
+.footer-links {
+  font-size: 12px;
+  color: rgb(82, 82, 82);
+  list-style: none;
+  line-height: 3;
+}
+
+.more-details {
+  padding: 29px 150px 154px 154px;
+  font-size: 12px;
+  color: #6e6e73;
+}
+.seperator {
+  width: 1px;
+  height: 13px;
+  background-color: rgb(163, 163, 163);
+}
+
+.footer-links-final {
+  padding-top: 10px;
+  display: flex;
+  gap: 20px;
+}
